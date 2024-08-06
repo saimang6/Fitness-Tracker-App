@@ -1,0 +1,16 @@
+SELECT TOP (1000) [MemberID]
+      ,[UserName]
+      ,[Password]
+      ,[FullName]
+      ,[NRIC]
+      ,[DateOfBirth]
+      ,[Email]
+      ,[Contact]
+      ,[Weight]
+      ,[Height]
+      ,[JoinDate]
+      ,[Gender]
+      ,[ImagePath]
+  FROM [Fitness_Tracker_DB].[dbo].[Member]
+
+  Delete from Member;
